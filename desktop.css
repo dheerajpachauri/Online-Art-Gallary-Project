@@ -1,64 +1,24 @@
-@media only screen and (min-width: 720px) {
 
-/* Header */
-#header {
-	width: 100vw;
-	height: 20vh;
-    background: #c2c2a3;
-}
+@media only screen and (min-width: 720px) {
+/* Page title for desktop screen*/
 
 #sideMenu {
-	float: left;
-	padding: 4% 10% 1% 2%;
-}
-
-#sideMenu span {
-	font-size: 3em;
-    color: #97970c;
-    text-decoration: none;
-}
-
+    float: left;
+    padding: 3% 1% 1% 2%;
+ }
 #pageTitle {
     float: left;
-    width: 50vw;
-	padding: 1% 1% 0% 15%;
-}
+    width: 65%;
+    padding: 0% 0% 1% 15%;
+ }
 
-#pageTitle h1 {
-    color: #990000;
-	font-size: 4em;
-}
-
-#pageLogo {
-    float: right; 
-    padding: 0 .5vw 0 0; 
-}
-
-#pageLogo img{
-    width: 10vw;
-    height: 19vh;
-    border: .5%;
-    border-style: solid; 
-    border-radius: 100%;
-}
-
-
-/* Content */
-
-/* Image Area */
-
-#imageArea {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    border-width: 8vh 3vh 3vh 3vh;
-    border-style: solid;
-    border-color:#c2c2a3; 
-}
-#firstImage {
-    width: 100%;
-    height: 100%;
+ /*image Area for desktop user*/
+ #imageArea {
+    margin: 0% 18%;
+ }
+ #firstImage {
+    display: block;
+    height: auto;
     position: relative;
     overflow: hidden;
 }
@@ -67,63 +27,20 @@
     top: 0%;
     right: 0%;
   }
-.shopItem a {
-	display: block;
-	width: 10vw;
-	height: 10vh;
-    padding-top: 1%; 
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: -1px;
-	font-family: "Arial";
-	font-size: 3em;
-	color:   hsl(78, 70%, 48%);
-}
-.shopItem a:hover {
-    border-radius: 5%;
-    color: #f56666;
-	background-color: #66ff66;
-} 
 #firstImagetext2 {
     position: absolute;
-    top: 55%;
-    right: 5%;
+    top: 5%;
+    left: 5%;
   }
-.shopItemtext {
-	display: block;
-	width: 10vw;
-	height: 1vh;
-    padding-top: 1%; 
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: -1px;
-	font-family: "Arial";
-	font-size: 200%;
-	color:   #030303;
-}
-.highlightText {
-    display: block;
-	width: 10vw;
-	height: 1vh;
-    padding-top: 1%; 
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: -1px;
-	font-family: "Times New Roman";
-	font-size: 200%;
-	color:   #030303;
-}
 
 #secondImage {
     float: left;
-    width: 48.8%;
+    width: 50%;
     height: auto;
-    border-width: 0 3vh 0 0;
-    border-style: solid;
-    border-color:#c2c2a3;
     position: relative;
     overflow: hidden;
 }
+
 #secondImagetext {
     position: absolute;
     bottom: 0%;
@@ -131,160 +48,53 @@
   }
 #thirdImage {
     float: right;
-    width: 48.8%;
+    width: 50%;
     height: auto;
     position: relative;
     overflow: hidden;
 }
+
 #thirdImagetext {
     position: absolute;
     bottom: 0%;
     right: 0%
   }
-#fourthImage {
-    width: 100%;
-    height: 100%;
-    border-width: 3vh 0 0 0;
-    border-style: solid;
-    border-color:#c2c2a3;
-    position: relative;
-    overflow: hidden;
-}
-#fourthImagetext {
-    position: absolute;
-    bottom: 0%;
-    right: 39.5%;
-}
-#fourthImagetext2 {
-    position: absolute;
-    height: 100%;
-    top: 0%;
-    bottomL: 0%;
-    left: 60.5%;
-    right: 0%; 
-}
-.exploreMore {
-    border-width: 2vh 2vh 2vh 2vh;
-    border-style: solid;
-    border-color:#6d7541;
-    background-color:#6d7541;
-}
-.exploreMore a {
-    padding: 25% 1% 30% 1%;
-    text-decoration: none;
-    font-size: 5em;
-    color: antiquewhite;
-    display: block; 
-}
-.exploreMore a:hover {
-    background-color:#102b30; 
-    color:#e76b18;
-    border-color:#3bc5dd;
-}
-/* Payment and Delivery portion */
+ 
+  /* Payment and Delivery Area for Desktop Users*/
 #PaymentDeliveryArea {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    background-color:#ffffff;
+    
+
 }
 #Payment {
-    float: left;
-    width: 48%;
-    height: auto;
-    padding: 1% 1% 1% 1%;   
+    float : left;
+    width: 50%;
+    background: #48a0a0;
 }
 
 #Delivery {
     float: right;
-    width: 48%;
-    height: auto;
-    padding: 1% 1% 1% 1%;  
+    width: 50%;
+    background: #48a0a0;
+}
+div span {
+    padding: 0% 0% 0% 4%;
+    font-size: 150%;
+}
+div ul{
+    padding: 0% 0% 0% 4%;
+    font-size: 125%;
 }
 
+/* Footer Area for Desktop Users*/
+#footerName {
+    font-family:'serif';
+    padding-left: 30%;
+    
+}
 
-
-/* Footer */
-#footer {
-        height: auto;
-        margin-top:-2%;
-        background: #0b4b45;
-  }
-#footerName{
-    font-family: 'Arial'; 
-    padding-top: 42px;
-    font-size: 300%;
-} 
-.footerNav{
-    float: left;
-    display: block;
-    width: 33%;
-    border-width: 0vh .5vh 0vh 0vh;
-    border-style: solid;
-    border-color:#6d7541;
-  }
-.footerNav A {
-    color: white;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Times New Roman';
-    padding: .5% 2% .25% 2%;
-}
-.footerNav:hover{
-    background-color: #333333;
-}
-.socialMediaHandle{
-    float: left;
-    display: block;
-    width: 33%;
-    border-width: 0vh .5vh 0vh 0vh;
-    border-style: solid;
-    border-color:#6d7541;
-  }
-.socialMediaHandle A {
-    color: white;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Times New Roman';
-    padding: .5% 2% .25% 2%;
-}
-.socialMediaHandle:hover{
-    background-color: #333333;
-}
-.addrerssOnMap{
-    float: left;
-    display: block;
-    width: 33%;
-    border-width: 0vh .5vh 0vh 0vh;
-    border-style: solid;
-    border-color:#6d7541;
-  }
-.addrerssOnMap span {
-    color: white;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Times New Roman';
-    padding: .5% 2% .25% 2%;
-}
-.addrerssOnMap:hover{
-    background-color: #333333;
-}
 #copyrightSection{
-    color: white;
-    background-color: #333333;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: arial;
-    margin-top: 10%;
-    margin-bottom: 0%;
+    color: #48a0a0;
+    padding-left: 35%;
+    font-size: 200%;
 }
-
-
 }
