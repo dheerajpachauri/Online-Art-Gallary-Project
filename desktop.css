@@ -1,7 +1,10 @@
 
-@media only screen and (min-width: 720px) {
-/* Page title for desktop screen*/
 
+/* Page title for desktop screen*/
+.header {
+    height: 25%;
+   
+ }
 #sideMenu {
     float: left;
     padding: 3% 1% 1% 2%;
@@ -96,5 +99,4 @@ div ul{
     color: #48a0a0;
     padding-left: 35%;
     font-size: 200%;
-}
 }
